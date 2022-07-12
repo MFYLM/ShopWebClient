@@ -15,7 +15,7 @@ root.render(
   <div>
     <Router>
       <Routes>
-        <Route exact path="/ShopWebLearn"  element={<Login />}/>
+        <Route exact path="/ShopWebClient"  element={<Login />}/>
         <Route element={<PrivateRoute />}>
           <Route path="/homepage" element={<App />}/>
           <Route path="/homepage/whiteboard" element={<Board />}/>
